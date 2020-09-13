@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(49, 47, 47);
+}
+#headline{
+    color: ivory;
+    background-color: rgba(48, 48, 48, 0.637);
+    height: 40px;
+
+}
+#startheadline{
+    padding-bottom: 10%;
+    text-align: center;
+    color: ivory;
+    text-align: center;
+}
+#startbutton{
+    font-size: 45px;
+    padding: 2%;
+    margin-left: 42%;
+    position: absolute;
+    top: 70%; 
+}
+#backtohomepage{
+    font-size: 20px;
+    margin-left: 43%;
+}
+#animalsbutton{
+    font-size: 35px;
+    padding: 5%;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+#colorsbutton{
+    font-size: 35px;
+    padding: 5%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#clothesbutton{
+    font-size: 35px;
+    padding: 5%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.score1{
+    color: white;
+    font-size: x-large;
+}
+#scorecounter{
+    color: white;
+    font-size: x-large;
+}
+#button1{
+    font-size: 30px;
+    margin: 25px;
+}
+#button2{
+    font-size: 30px;
+    margin: 25px;
+}
+#button3{
+    font-size: 30px;
+    margin: 25px;
+}
+#next{
+    font-size: 30px;
+    margin: 25px;
+}
+#previous{
+    font-size: 30px;
+    margin: 25px;
+}
