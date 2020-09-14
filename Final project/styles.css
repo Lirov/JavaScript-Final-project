@@ -3,70 +3,76 @@ body{
 }
 #headline{
     color: ivory;
-    background-color: rgba(48, 48, 48, 0.637);
-    height: 40px;
-
+    background-color: rgb(49, 47, 47);
+    height: 5%;
+}
+#qustion{
+    color: white;
+    background-color: rgb(143, 136, 136);
 }
 #startheadline{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     text-align: center;
     color: ivory;
     text-align: center;
 }
 #startbutton{
     font-size: 45px;
-    padding: 2%;
-    margin-left: 42%;
-    position: absolute;
-    top: 70%; 
 }
 #backtohomepage{
     font-size: 20px;
     margin-left: 43%;
 }
 #animalsbutton{
-    font-size: 35px;
-    padding: 5%;
-    margin-left: 13%;
+    font-size: 25px;
+    padding: 2%;
+    margin-left: 15%;
     margin-top: 3%;
 }
 #colorsbutton{
-    font-size: 35px;
-    padding: 5%;
-    margin-left: 10%;
+    font-size: 25px;
+    padding: 2%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 #clothesbutton{
-    font-size: 35px;
-    padding: 5%;
-    margin-left: 10%;
+    font-size: 25px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#furnituresbutton{
+    font-size: 25px;
+    padding: 2%;
+    margin-left: 5%;
     margin-top: 3%;
 }
 .score1{
     color: white;
-    font-size: x-large;
+    font-size: large;
 }
 #scorecounter{
     color: white;
-    font-size: x-large;
+    font-size: large;
 }
 #button1{
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px;
 }
 #button2{
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px;
 }
 #button3{
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px;
 }
 #next{
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px;
 }
 #previous{
-    font-size: 30px;
+    font-size: 20px;
     margin: 25px;
 }
+

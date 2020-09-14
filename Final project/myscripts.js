@@ -1,72 +1,72 @@
 const animals = [
     {
         "id":1,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Kuh','Hai','Hase'],
-        "img":'https://dev.petlandflorida.com/wp-content/uploads/2016/08/little-red-bunny-1372114-639x481.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/e/ec/Rabbit_clipart.svg',
         "rightAnswer":'Hase'
     },
     {
         "id":2,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Löwin','Affe','Zebra'],
-        "img":'https://www.onyxtruth.com/wp-content/uploads/2018/01/HM-monkey-onyx-truth-620x400.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Meuble_h%C3%A9raldique_singe_assis.svg/543px-Meuble_h%C3%A9raldique_singe_assis.svg.png',
         "rightAnswer":'Affe'
     },
     {
         "id":3,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Tigerin','Wal','Pferd'],
-        "img":'https://scx1.b-cdn.net/csz/news/800/2019/tiger.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/6/65/Tiger_clipart.svg',
         "rightAnswer":'Tigerin'
     },
     {
         "id":4,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Hähnchen','Hund','Bär'],
-        "img":'https://ichef.bbci.co.uk/news/976/cpsprodpb/9F73/production/_113091804_bear.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/5/57/Bear_of_California_%28Black%29.svg',
         "rightAnswer":'Bär'
     },
     {
         "id":5,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Katze','Ente','Känguru'],
-        "img":'https://www.thespruce.com/thmb/MugBBmymvyMPbcO7UGTjDH_NreA=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1146102607-b3491a355af94171aa8ac7b0aeec0616.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/a/a4/Duck_Sotka1.svg',
         "rightAnswer":'Ente'
     },
     {
         "id":6,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Ameise','Delfin','Käfer'],
-        "img":'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSFbMGqMqV1iveYjYhGBCR3REJzkd_6Zy9YWA&usqp=CAU',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/d/d1/Dolphin_mark.svg',
         "rightAnswer":'Delfin'
     },
     {
         "id":7,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Krabbe','Fisch','Papagei'],
-        "img":'http://t2.gstatic.com/images?q=tbn:ANd9GcSV42CFRdbHufkCZWzEfduj8DpslL2C4-LV9RvYOcpR8Y3sm9tl6TJli6K7XL5I-k8bZg5h41sZriRX06nJ8_U',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/7/7c/Parrot_%28PSF%29.svg',
         "rightAnswer":'Papagei'
     },
     {
         "id":8,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Hamster','Elefant','Hirsch'],
-        "img":'https://c402277.ssl.cf1.rackcdn.com/photos/14206/images/hero_small/WW187785.jpg?1576774644',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/5/5e/CoA_elephant.svg',
         "rightAnswer":'Elefant'
     },
     {
         "id":9,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Kamel','Panda','Giraph'],
-        "img":'https://i.pinimg.com/originals/6b/0d/d1/6b0dd1787cdcc6441e671a6ae88d7ae9.jpg',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/6/67/Giraffe_%28PSF%29.svg',
         "rightAnswer":'Giraph'
     },
     {
         "id":10,
-        "word":"Which animal is that?",
+        "word":"What animal is that?",
         "options":['Pinguin','Schwein','Schildkröte'],
-        "img":'https://pngriver.com/wp-content/uploads/2018/03/Download-Box-Turtle-PNG-File-For-Designing-Purpose-1000x642.png',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/1/19/Sea_Turtle_%281043476%29_-_The_Noun_Project.svg',
         "rightAnswer":'Schildkröte'
     },
 
@@ -76,7 +76,7 @@ const colors = [
         "id":1,
         "word":"color",
         "options":['Rot','Blau','Grün'],
-        "img":'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaKDSdIatRivdDrsTmXw0KjzQ167Yegx-jVg&usqp=CAU',
+        "img":'https://upload.wikimedia.org/wikipedia/commons/f/ff/Solid_blue.svg',
         "rightAnswer":'Blau'
     },
     {
@@ -216,6 +216,79 @@ const clothes = [
         "rightAnswer":'Jacke'
     },
 ]
+const furnitures = [
+    {
+        "id":1,
+        "word":"What furnitures is that?",
+        "options":['Stuhl','Couch','Lampe'],
+        "img":'https://svgsilh.com/svg/2027234.svg',
+        "rightAnswer":'Couch'
+    },
+    {
+        "id":2,
+        "word":"What furnitures is that?",
+        "options":['Stuhl','Wandschrank','Tabelle'],
+        "img":'https://svgsilh.com/svg/157788.svg',
+        "rightAnswer":'Stuhl'
+    },
+    {
+        "id":3,
+        "word":"What furnitures is that?",
+        "options":['Bücherregal','Couch','Tabelle'],
+        "img":'https://svgsilh.com/svg/1300555.svg',
+        "rightAnswer":'Tabelle'
+    },
+    {
+        "id":4,
+        "word":"What furnitures is that?",
+        "options":['Lampe','Vorhang','Bücherregal'],
+        "img":'https://upload.wikimedia.org/wikipedia/commons/8/85/Lamp%C5%9Dirmilo_.svg',
+        "rightAnswer":'Lampe'
+    },
+    {
+        "id":5,
+        "word":"What furnitures is that?",
+        "options":['Kommode','Bücherregal','Bett'],
+        "img":'https://svgsilh.com/svg/575818.svg',
+        "rightAnswer":'Bücherregal'
+    },
+    {
+        "id":6,
+        "word":"What furnitures is that?",
+        "options":['Vorhang','Stuhl','Wandschrank'],
+        "img":'https://svgsilh.com/svg/764792.svg',
+        "rightAnswer":'Wandschrank'
+    },
+    {
+        "id":7,
+        "word":"What furnitures is that?",
+        "options":['Bett','Lampe','Tabelle'],
+        "img":'https://svgsilh.com/svg/2691891.svg',
+        "rightAnswer":'Bett'
+    },
+    {
+        "id":8,
+        "word":"What furnitures is that?",
+        "options":['Vorhang','Teppich','Stuhl'],
+        "img":'https://svgsilh.com/svg/155315.svg',
+        "rightAnswer":'Teppich'
+    },
+    {
+        "id":9,
+        "word":"What furnitures is that?",
+        "options":['Spiegel','Tabelle','Vorhang'],
+        "img":'https://svgsilh.com/svg/42858.svg',
+        "rightAnswer":'Vorhang'
+    },
+    {
+        "id":10,
+        "word":"What furnitures is that?",
+        "options":['Lampe','Vorhang','Spiegel'],
+        "img":'https://svgsilh.com/svg/308791.svg',
+        "rightAnswer":'Spiegel'
+    },
+
+]
 
 var catagory
 var index = 0;
@@ -236,7 +309,10 @@ function game(){
             break; 
         case "Clothes":
             catagory = clothes
-            break;          
+            break;
+        case "Furnitures":
+            catagory = furnitures
+            break;             
     }
     picture.src = catagory[index].img
     var i = 0;
@@ -247,6 +323,10 @@ function game(){
     }
 }
 
+function gameOver(){
+    alert("Congratulation! You've finished the quiz! Your score is: " + score.innerHTML)
+}
+
 function rightAnswer()
 {
     console.log(score.innerHTML)
@@ -254,6 +334,7 @@ function rightAnswer()
     alert("Right answer!")
     nextQustion()
 }
+
 function wrongAnswer() {
 
     console.log(score.innerHTML)
@@ -262,8 +343,15 @@ function wrongAnswer() {
 }
 
 function nextQustion(){
+    console.log(index)
+    console.log(catagory.length)
     index++
-    game();
+    if (index < catagory.length) {
+        game();
+    }
+    else{
+        gameOver();
+    }
 }
 function previousQustion(){
     index--
@@ -271,7 +359,6 @@ function previousQustion(){
 }
 
 function myAnswer(userAnswer){
-    console.log(catagory);
     if (userAnswer == catagory[index].rightAnswer) {
         rightAnswer()
     }

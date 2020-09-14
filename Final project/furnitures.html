@@ -10,10 +10,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-<script src="myscripts.js">
-    
-</script>
-
 <div>
     <nav class="navbar navbar-dark bg-dark" id="navbar">
         <span class="score1">Score</span>
@@ -25,18 +21,23 @@
       </nav>
 </div>
 
+<script src="myscripts.js">
+    
+</script>
+
 </head>
 
 <body onload="game()">
-
+      
       <div id="qustion" class="jumbotron text-center">
-        <h1 id="catagory" class="display-4">Clothes</h1>
-        <h3>What Item of clothing is in the picture?</h3>
-        </br>
+        <h1 id="catagory" class="display-4">Furnitures</h1>
+        <h3>What furnitures is in the picture?</h3>
+      </br>
         <img id="picture" width="280" height="280"</img>
-
+        </br>
+  
         <div class="container-fluid text-center">
-
+            
             <button id="button1" class="btn btn-primary btn-lg active myAnswer" role="button" aria-pressed="true" value="" onclick="myAnswer(value)"></button>
             <button id="button2" class="btn btn-primary btn-lg active myAnswer" role="button" aria-pressed="true" value="" onclick="myAnswer(value)"></button>
             <button id="button3" class="btn btn-primary btn-lg active myAnswer" role="button" aria-pressed="true" value="" onclick="myAnswer(value)"></button>
@@ -44,10 +45,11 @@
 
         <div>
             <button id="previous" class="btn btn-dark btn-lg active" role="button" aria-pressed="true" onclick="previousQustion()">Previous</button>
-            <button id="next" class="btn btn-dark btn-lg active" role="button" aria-pressed="true" onclick="nextQustion()">Next</button> 
+            <button id="next" class="btn btn-dark btn-lg active" role="button" aria-pressed="true" onclick="nextQustion()">Next</button>
         </br>
+        
             <a id='backtocategory' href="game.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Back to category</a>
         </div>
-
+        
 </body>
 </html>
